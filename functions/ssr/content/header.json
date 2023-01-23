@@ -1,0 +1,38 @@
+{
+  "pitch_bar": [{
+    "href": "/promotion",
+    "html": "Aproveite nossos descontos de até 50%!"
+  }, {
+    "href": "",
+    "html": "<b>Frete grátis</b> para todo Brasil a partir de R$ 200,00"
+  }],
+  "contacts_stripe": {
+    "pages": [
+      {
+        "title": "Sobre nós",
+        "link": "/pages/sobre-nos"
+      },
+      {
+        "title": "Esta loja é um PWA",
+        "link": "/posts/esta-loja-e-um-pwa"
+      }
+    ],
+    "phone_wpp": true,
+    "socials": true
+  },
+  "drawer_links": [
+    {
+      "title": "Fale conosco",
+      "link": "/pages/contato"
+    }
+  ],
+  "categories_list": {
+    "featured": [],
+    "random": 6,
+    "full_width": false
+  },
+  "desktop_megamenu": false,
+  "search_input": true,
+  "alphabetical_order_submenu": false,
+  "full_width_submenu": false
+}

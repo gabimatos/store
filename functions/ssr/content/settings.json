@@ -1,0 +1,17 @@
+{
+  "domain": "ecom2-002.web.app",
+  "name": "My Shop",
+  "description": "My PWA Shop",
+  "logo": "/img/uploads/logo.webp",
+  "icon": "/img/uploads/large-icon.png",
+  "primary_color": "#137c5c",
+  "email": "",
+  "phone": "",
+  "address": "",
+  "corporate_name": "",
+  "doc_number": "",
+  "lang": "pt_br",
+  "currency": "BRL",
+  "currency_symbol": "R$",
+  "country_code": "BR"
+}

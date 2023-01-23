@@ -1,0 +1,19 @@
+---
+import type { PageContext } from '@@sf/ssr-context';
+import Base from '~/layouts/Base.astro';
+import Header from '@@sf/layouts/PagesHeader.astro';
+
+export interface Props {
+  pageContext: PageContext;
+  title?: string;
+}
+
+const { pageContext, title } = Astro.props as Props;
+---
+
+<Base pageContext={pageContext} title={title}>
+  <slot name="header">
+    <Header pageContext={pageContext} />
+  </slot>
+  <slot />
+</Base>
